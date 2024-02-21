@@ -1,0 +1,199 @@
+*{
+        padding: 0;
+        margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Courier New', Courier, monospace;
+    /* overflow-x: hidden; */
+}
+
+.container{
+    height: 100%;
+    width: 100%;
+}
+
+.page1{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    padding: 0.1;
+}
+
+.upper{
+    height: 45%;
+    width: 100%;
+    /* background-color: blue; */
+    background-repeat: no-repeat;
+    background-size: 42cm;
+    background-position: center;
+    position: relative;
+}
+
+.upper img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.explore{
+    position: absolute;
+    /* background-color: rgb(13, 0, 255); */
+   top: 10%;
+   left: 20%;
+   transform: translate(0,10%);
+}
+
+.explore h1{
+    font-size: 3.2vmax;
+    margin-bottom: 2%;
+    color: white;
+}
+
+.explore p{
+    font-size: 1.1vmax;
+    color: white;
+}
+.explore button{
+    margin-top: 7%;
+    font-size: 1.2vmax;
+    padding: 8px 12px;
+    /* margin-left: 2%; */
+    background-color: transparent;
+    color: white;
+}
+
+.lower{
+    height: 55%;
+    width: 100%;
+    /* background-color: aquamarine; */
+    display: flex;
+}
+.lower .card{
+    height: 100%;
+    width: 25%;
+    background-color: antiquewhite;
+    background-image: url("https://images.unsplash.com/photo-1521567602683-a6760a3a2cc3?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lower .card2{
+    height: 100%;
+    width: 25%;
+    background-color: antiquewhite;
+    background-image: url("https://images.unsplash.com/photo-1520962922320-2038eebab146?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lower .card3{
+    height: 100%;
+    width: 25%;
+    background-color: antiquewhite;
+    background-image: url("https://images.unsplash.com/photo-1500375592092-40eb2168fd21?q=80&w=1888&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.lower .card4{
+    height: 100%;
+    width: 25%;
+    background-color: antiquewhite;
+    background-image: url("https://images.unsplash.com/photo-1503022932596-500eb8cca2d8?q=80&w=1964&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+/*                                                   page 2                    */
+
+.page2{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+    display: flex;
+}
+
+.left{
+    width: 50%;
+    height: 100%;
+    /* background-color: cadetblue; */
+}
+
+.content{
+    height: 90%;
+    width: 60%;
+    /* background-color: antiquewhite; */
+    margin-left: 35%;
+    margin-top: 8%;
+}
+
+.content h1{
+    font-size: 2.8vmax;
+    font-weight: 600;
+}
+.content h3{
+    font-size: 1.5vmax;
+    margin: 6% 0;
+}
+.content .line{
+    border-bottom: 2px solid red;
+    width: 32%;
+    margin-bottom: 10%;
+}
+.content p{
+    font-size: 1.1vmax;
+    line-height: 1.1;
+}
+
+.right{
+    height: 100%;
+    width: 50%;
+    /* background-color: black; */
+}
+
+.right img{
+    margin-top: 19%;
+    height: 80%;
+    width: 60%;
+    object-fit: cover;
+    border: 10px;
+
+}
+
+.page3{
+    height: 100%;
+    width: 100%;background-color: beige;
+    /* display: flex; */
+    background-image: url("https://images.unsplash.com/photo-1498598457418-36ef20772bb9?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 0.1px;
+}
+
+.page3 h1{
+    font-size: 3vmax;
+    color: white;
+    margin-top: 5%;
+}
+.page3 button{
+    margin-top: 4%;
+    font-size: 1.2vmax;
+    padding: 8px 20px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.568);
+    font-weight: 700;
+    border: none;
+    color: white;
+}
+
+
+
+
